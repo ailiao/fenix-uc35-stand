@@ -1,11 +1,14 @@
 module fenix_uc35_stand() {
-    uc35_cutout_diameter = 26;
+    //uc35_cutout_diameter = 26; // UC35 v1
+    uc35_cutout_diameter = 25.5; // UC35 v2
     button_cutout_diameter = 15;
     leg_dimensions = [40, 10, 2];
     leg_count = 8;
-    wall_height = 28;
+    //wall_height = 28; // UC35 v1
+    wall_height = 29; // UC35 v2
     wall_thickness = 3;
-    bottom_shelf_z = leg_dimensions.z;
+    //bottom_shelf_z = 2; // UC35 v1
+    bottom_shelf_z = 3; // UC35 v2
 
 
     difference() {
